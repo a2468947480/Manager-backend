@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a241076d-2324-4464-8034-2903cf7d4900" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/wzut/redistest/JedisConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/edu/wzut/redistest/RedisLearnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/wzut/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/wzut/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/wzut/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/wzut/controller/DeptController.class" afterDir="false" />
-    </list>
+    <list default="true" id="a241076d-2324-4464-8034-2903cf7d4900" name="Changes" comment="reids线程池创建" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +197,7 @@
       <workItem from="1654961271369" duration="1000" />
       <workItem from="1654961301428" duration="623000" />
       <workItem from="1655010713891" duration="520000" />
-      <workItem from="1655011275471" duration="4667000" />
+      <workItem from="1655011275471" duration="4967000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1654961710925</created>
@@ -221,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654961746695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reids线程池创建">
+      <created>1655042057622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655042057622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +242,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="reids线程池创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="reids线程池创建" />
   </component>
 </project>
