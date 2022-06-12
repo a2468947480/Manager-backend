@@ -1,7 +1,6 @@
 package cn.edu.wzut.controller;
 
 import cn.edu.wzut.mbp.entity.SysDept;
-import cn.edu.wzut.mbp.entity.SysUser;
 import cn.edu.wzut.mbp.service.ISysDeptService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,17 +41,19 @@ public class DeptController {
     @PostMapping
     public JsonResult<Object> save(@RequestBody SysDept sysDept) throws MyException {
         boolean b = deptService.saveOrUpdate(sysDept);
-        if(b)
+        if(b) {
             return new JsonResult<>(0, "修改完成");
-        else
+        } else {
             throw new MyException("修改失败");
+        }
     }
     @DeleteMapping("/{id}")
     public JsonResult<Object> deleteall(@PathVariable("id") BigDecimal id) throws MyException {
         boolean b = deptService.removeById(id);
-        if(b)
+        if (b) {
             return new JsonResult<>(0, "删除完成");
-        else
+        } else {
             throw new MyException("删除失败");
+        }
     }
 }

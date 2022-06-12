@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a241076d-2324-4464-8034-2903cf7d4900" name="Changes" comment="Changes" />
+    <list default="true" id="a241076d-2324-4464-8034-2903cf7d4900" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/wzut/redistest/JedisConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/edu/wzut/redistest/RedisLearnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/wzut/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/wzut/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/wzut/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/wzut/controller/DeptController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +65,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -68,27 +78,47 @@
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.edu.wzut.redistest" />
       <recent name="cn.edu.wzut.mbp.mapper" />
       <recent name="cn.edu.wzut.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.wzut.Main" />
+  <component name="RunManager" selected="JUnit.RedisLearnTest.testhash">
+    <configuration name="RedisLearnTest.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam-backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu.wzut.*" />
+          <option name="PATTERN" value="cn.edu.wzut.redistest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.wzut.redistest" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.wzut.redistest.RedisLearnTest" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisLearnTest.testhash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.wzut.redistest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.wzut.redistest" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.wzut.redistest.RedisLearnTest" />
+      <option name="METHOD_NAME" value="testhash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,10 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SysDeptMapperTest.test" />
-        <item itemvalue="JUnit.SysRoleMapperTest.test1" />
+        <item itemvalue="JUnit.RedisLearnTest.testhash" />
+        <item itemvalue="JUnit.RedisLearnTest.testString" />
         <item itemvalue="JUnit.SysRoleMapperTest.test2" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="JUnit.SysRoleMapperTest.test1" />
+        <item itemvalue="JUnit.SysDeptMapperTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -172,8 +203,25 @@
       <workItem from="1654952686352" duration="1382000" />
       <workItem from="1654961200215" duration="55000" />
       <workItem from="1654961271369" duration="1000" />
-      <workItem from="1654961301428" duration="344000" />
+      <workItem from="1654961301428" duration="623000" />
+      <workItem from="1655010713891" duration="520000" />
+      <workItem from="1655011275471" duration="4667000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1654961710925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654961710925</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes">
+      <created>1654961746695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654961746695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +242,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>
